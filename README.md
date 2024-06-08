@@ -1,13 +1,19 @@
 Packet Sniffer with Scapy
+
 Overview
 This script is a simple packet sniffer built with Scapy in Python. It captures network packets on a specified interface, filters by protocol, and logs packet details to a file.
 
 Prerequisites
+
 Python 3.x
 Scapy library (pip install scapy)
+
 Usage
+
 Run the script.
+
 Enter the following parameters when prompted:
+
 Network Interface (e.g., eth0)
 Number of Packets to capture (0 for unlimited)
 Capture Duration in seconds (0 for no timeout)
